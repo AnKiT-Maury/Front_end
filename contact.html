@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Website</title>
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="project_1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<script>
+    function none(){
+        window.alert("We are Sorry! , WE are working on it")
+    }
+</script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <p> My Website</p>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="chbtn">
+            <i class="bi bi-list"></i>
+        </label>
+        <ul id="ul">
+            <li><a href="Project_1.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="#" onclick="none()">Admission</a></li>
+
+        </ul>
+        <ul id="ul1">
+            <li>
+                <input type="search" id="sea">
+                <button type="search" id="search">SEARCH</button>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="w3-row">
+        <div class="w3-col s12 m12 l12">
+            <img src="6.jfif" height="300px" width="100%" alt="">
+
+
+        </div>
+    </div>
+    <div class="w3-row">
+        <div class="w3-col s12 m12 l3 w3-conatiner" id="out">
+            <div>
+                <div class="w3-black w3-panel w3-black w3-text-white w3-card-4 w3-border-red w3-topbar w3-leftbar  w3-rightbar w3-bottombar w3-center w3-xxxlarge w3-serif w3-circle"
+                    style="height: 230px; width: 230px; transition: all .3s ease;" id="abt">
+                    <br>
+                    <p><u>Contact</u></p>
+                    <p>Us</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col s12 m12 l8 w3-panel  ">
+            <div class=" w3-conatiner">
+                <div class="w3-row">
+                    <div class="w3-col s12 m12 l12 w3-card-4 w3-panel w3-panel w3-round-large" >
+                        <h2>Give your Feedback</h2>
+                        <hr class="w3-border-black w3-border">
+                        <form action="contact.html">
+                        <label for="name">NAME :-</label> <br>
+                        <input type="text" id="name" required placeholder="Enter your name"> <br><br>
+                       
+                         <label for="email">E-mail :-</label> <br> 
+                        <input type="email" id="email" pattern="[a-z0-9_%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required placeholder="Please enter valid e-mail id"> <br> <br>
+                        <label for="description">Description</label><br>
+                        <textarea name="discription" id="disc" placeholder="What you Want  ? " required ></textarea>
+                        <div class="w3-center w3-panel">
+                            <button type="reset" id="reset">RESET</button>
+                            <button type="submit" id="submit">SUBMIT</button>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-col s12 m12 l12 w3-panel  w3-card-4 w3-round-large ">
+                        <h2>FOUND US</h2>
+                        <hr class="w3-topbar">
+                        <ul>
+                            <li class="w3-bar">
+                                <a href="#" onclick="none()"> <img src="fb.png" class="w3-bar-item  " style="width: 85px;" alt="">
+                                </a>
+                                <div class="w3-bar-item">
+                                    <span class="w3-large"><a href="#" onclick="none()"> FACEBOOK</a></span><br>
+                                    <span><a href="#" onclick="none()">vist on our Facebook page</a></span>
+                                </div>
+                            </li>
+                            <li class="w3-bar">
+                                <a href="#" onclick="none()"> <img src="in.png" class="w3-bar-item  " style="width:75px;" alt="">
+                                </a>
+                                <div class="w3-bar-item">
+                                    <span class="w3-large"><a href="#" onclick="none()">INSTAGRAM</a></span><br>
+                                    <span><a href="#" onclick="none()">vist on our Instagram page</a></span>
+                                </div>
+                            </li>
+                            <li class="w3-bar">
+                                <a href="#" onclick="none()"> <img src="tw.png" class="w3-bar-item  " style="width: 85px;" alt="">
+                                </a>
+                                <div class="w3-bar-item">
+                                    <span class="w3-large"><a href="#" onclick="none()">FACEBOOK</a></span><br>
+                                    <span><a href="#" onclick="none()">vist on our Twitter page</a></span>
+                                </div>
+                            </li>
+                            <li class="w3-bar">
+                                <a href="#" onclick="none()">
+                                    <img src="yt.png" class="w3-bar-item  " style="width: 85px;" alt="">
+                                </a>
+
+                                <div class="w3-bar-item">
+                                    <span class="w3-large"><a href="#" onclick="none()">YOUTUBE</a></span><br>
+                                    <span><a href="#" onclick="none()">vist on our Youtube page</a></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w3-col s12 m12 l12 w3-panel w3-card-4 w3-round-large">
+                        <h2>Reach Us</h2>
+                        <hr class="w3-topbar">
+                        <img src="10.PNG" height="400px" alt="" class="w3-round-xlarge" width="100%">
+                        <!-- <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113996.61805991875!2d83.33387124346507!3d26.76369793739585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991446a0c332489%3A0x1ff3f97fdcc6bfa2!2sGorakhpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1641539678600!5m2!1sen!2sin"
+                        width="100%" height="400px" style="border:1px solid grey;" allowfullscreen="" loading="fast"></iframe> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row">
+        <div class="w3-col s12 m12 l12  w3-center w3-black w3-text-white">
+            <div class="w3-panel">
+                COPYRIGHT &copy; Containt .All Right Reserved 2022 .Terms and Condition Apply.
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
